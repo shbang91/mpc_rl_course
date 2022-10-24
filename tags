@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Model	exercise03/model.py	/^class  Model:$/;"	c
+__init__	exercise03/model.py	/^    def __init__(self, s_expr, a_expr, f_expr, s_steady_state, a_steady_state, name='model', dt=1):$/;"	m	class:Model
+integrate_RK4	exercise03/utils.py	/^def integrate_RK4(x_expr, u_expr, xdot_expr, dt, N_steps=1):$/;"	f
+interpolate_bilinear	exercise03/utils.py	/^def interpolate_bilinear(x, y, x1, y1, x2, y2, q11, q12, q21, q22):$/;"	f
+interpolate_linear	exercise03/utils.py	/^def interpolate_linear(x, x1, v1, x2, v2):$/;"	f
+is_inside_box	exercise03/utils.py	/^def is_inside_box(x, y, x1, x2, y1, y2):$/;"	f
+latexify	exercise01/plot_utils.py	/^def latexify(fig_width=None, fig_height=None):$/;"	f
+latexify	exercise03/plot_utils.py	/^def latexify(fig_width=None, fig_height=None):$/;"	f
+plot_control_maps	exercise01/plot_utils.py	/^def plot_control_maps(u_map_dp, u_map_lqr, S1, S2, k, amin=0, amax=1000, titles=None):$/;"	f
+plot_control_maps	exercise03/plot_utils.py	/^def plot_control_maps(u_map_dp, u_map_lqr, S1, S2, k, amin=0, amax=1000, titles=None):$/;"	f
+plot_cost	exercise01/plot_utils.py	/^def plot_cost(s0s, costs):$/;"	f
+plot_cost	exercise03/plot_utils.py	/^def plot_cost(s0s, costs):$/;"	f
+plot_cost_maps	exercise01/plot_utils.py	/^def plot_cost_maps(J_dp, J_lqr, S1, S2, k, Jmin=None, Jmax=None, log_scale=False, both=True):$/;"	f
+plot_cost_maps	exercise03/plot_utils.py	/^def plot_cost_maps(J_dp, J_lqr, S1, S2, k, Jmin=None, Jmax=None, log_scale=False, both=True):$/;"	f
+plot_cost_slices	exercise01/plot_utils.py	/^def plot_cost_slices(J_dp, J_lqr, s1_grid, s2_grid, indices, vary_s1=True):$/;"	f
+plot_cost_slices	exercise03/plot_utils.py	/^def plot_cost_slices(J_dp, J_lqr, s1_grid, s2_grid, indices, vary_s1=True):$/;"	f
+plot_cost_to_go	exercise01/plot_utils.py	/^def plot_cost_to_go(J_cost, S1, S2, k, N, ax=None, fig=None, vmin=0, vmax=1000):$/;"	f
+plot_cost_to_go	exercise03/plot_utils.py	/^def plot_cost_to_go(J_cost, S1, S2, k, N, ax=None, fig=None, vmin=0, vmax=1000):$/;"	f
+plot_trajectories	exercise01/plot_utils.py	/^def plot_trajectories(s_trajs, a_trajs, labels):$/;"	f
+plot_trajectories	exercise03/plot_utils.py	/^def plot_trajectories(s_trajs, a_trajs, labels):$/;"	f
+project_indices	exercise03/utils.py	/^def project_indices(x, values):$/;"	f
+simulate	exercise03/model.py	/^    def simulate(self, s0, a0, w0=0.0):$/;"	m	class:Model
+simulate_traj	exercise03/model.py	/^    def simulate_traj(self, s0, a_traj):$/;"	m	class:Model
